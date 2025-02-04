@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/icons.png" type="image/x-icon">
+    <title>Agência de Viagens</title>
+</head>
+<body>
+    <!-- TAG semântica para cabeçalhos -->
+    <header>
+        <h1 id="inicio">Agência de Viagens</h1>
+        <!-- tag semântica para barra de navegação -->
+        <nav>
+            <a href="#inicio"></a>
+            <a href="#destinos"></a>
+            <a href="#pacotes"></a>
+            <a href="#contatos"></a>
+        </nav>
+    </header>
+    <div class="containerr">
+        <!-- tag semântica para informações laterais -->
+        <aside class="sidebar">
+            <h2 class="destinos">Destinos populares!</h2>
+            <ul>
+                <li><img src="img/paris.jpg" alt="paris">Paris, FR</li>
+                <li><img src="img/ny.jpg" alt="newyork">Nova York, US</li>
+                <li><img src="img/riojaneiro.jpg" alt="riodefevereiro">Rio de Janeiro, BR</li>
+                <li><img src="img/roma.jpg" alt="roma">Roma, IT</li>
+                <li><img src="img/tokio.jpg" alt="torquio">Tóquio, JP</li>
+            </ul>
+
+        </aside>
+        <!-- tag semântica para sessões extras -->
+        <section class="main-content">
+            <h2 class="subtitle">Encontre o seu destino</h2>
+            <form>
+                <input type="text" placeholder="Digite o seu destino" required id="">
+                <input type="date" required id="">
+                <button type="submit">Procurar</button>
+            </form>
+        </section>
+        <aside class="sidebar2">
+            <h2>Pacotes em promoção!</h2>
+            <ul>
+                <li><img src="img/cancun.jpg" alt="cacu">
+                    <b>Praias parasidíacas!</b>
+                    <br>Pacote para Cancun - 5 dias por 3x de R$2500
+                </li>
+                <li><img src="img/londres.jpg" alt="london">
+                    <b>Intercâmbio britânico!</b>
+                    <br>Pacote para Londres - 7 dias por 2x de R$4.000
+                </li>
+                <li><img src="img/noronha.jpg" alt="fernando">
+                    <b>Super oportunidade!</b>
+                    <br>Pacote para Fernando de Noronhas - 4 dias por R$3.200
+                </li>
+            </ul>
+        </aside>
+    </div>
+    <!-- tag semântica para rodapés -->
+    <footer>
+        <p id="contatos">₢2025 Agência de Viagens - Contato: contato@agenciaviagens.com</p>
+    </footer>
+</body>
+</html>
