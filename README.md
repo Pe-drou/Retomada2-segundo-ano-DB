@@ -3,6 +3,6 @@
  
  Imagens do site completo (em desktop e celular, respectivamente)
 
-  <img src="modelos-alta-fidelidade/site-img-desktop.png" alt="Imagem desktop" style="max-height: 300px;"><img src="modelos-alta-fidelidade/site-img-mobile.png" alt="Imagem mobile" style="max-height: 300px;">
+  <img src="modelos-alta-fidelidade/site-img-desktop.png" alt="Imagem desktop" style="height: 300px;"><img src="modelos-alta-fidelidade/site-img-mobile.png" alt="Imagem mobile" style="height: 300px;">
 
 <a href="https://www.figma.com/design/Hc9eqbD6Ypjdn7OTXiVT0j/Modelo-Alta-Fidelidade-de-Ag%C3%AAncia-de-Viagem?m=auto&t=cn6XjHTJQFKMtaC6-6" target="_blank" style="font-size: 20px">Modelos de alta fidelidade no Figma</a>
